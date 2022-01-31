@@ -1,0 +1,24 @@
+.receitas {
+    background: #e5e5e5;
+    display: flex; /*Para deixas as receitas uma ao lado da outra*/
+    flex-wrap: wrap; /*Cria automaticamente elementos de linhas e colunas*/
+
+}
+
+@media screen and (min-width: 0){
+    .receitas{
+        padding: 5rem 0 0 1rem;
+    }
+}
+
+@media screen and (min-width: 768px){ /*Tablets*/
+    .receitas{
+        padding: 5rem 0 0 2.5rem;
+    }
+}
+
+@media screen and(min-width: 992px){
+    .receitas{
+        padding: 5rem 0 0 5rem;
+    }
+}
